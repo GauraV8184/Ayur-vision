@@ -1,0 +1,6 @@
+# Optional overrides for local development (hot reload is usually easier with `npm run dev`).
+services:
+  backend:
+    environment:
+      NODE_ENV: development
+      ALLOWED_ORIGINS: http://localhost:5173,http://127.0.0.1:5173

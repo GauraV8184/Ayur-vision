@@ -1,0 +1,2 @@
+# Ensure Markdown is stored with LF so GitHub renders it correctly
+*.md text eol=lf
